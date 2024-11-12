@@ -1,0 +1,10 @@
+name: dormancy_shiny_app
+title:
+username: ucbtsh6
+account: ucbtsh6
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13304844
+bundleId: 9352300
+url: https://ucbtsh6.shinyapps.io/dormancy_shiny_app/
+version: 1
