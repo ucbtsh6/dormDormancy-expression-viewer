@@ -1,5 +1,6 @@
 # Dormancy-expression-viewer
-This Shiny app allows users to explore gene expression data across various datasets related to dormancy. Users can input gene names (Ensembl human genes or pombe genes) to retrieve corresponding orthologues and expression data across multiple conditions. The app is designed to help researchers analyze gene expression changes under dormancy-related conditions in different organisms.
+This Shiny app allows users to explore gene expression data across various datasets related to dormancy. Users can input gene names (Ensembl human genes or pombe genes) to retrieve corresponding orthologues and expression profile across dormancy in multiple model organisms.
+
 you can access the tool online through this link (https://bit.ly/DormancyExpressionViewer)
 Features
 
@@ -53,7 +54,6 @@ dormancy-expression-viewer/
 ├── app.R                               # Main Shiny app file
 ├── dormancy.gene.expression.view.ortho.xls # Excel file with gene expression data
 └── www/
-    ├── style.css                       # Custom CSS for styling
     └── logo.png                        # Logo image (optional)
 License
 
@@ -65,7 +65,7 @@ For any inquiries, please contact shaimaa.hassan.18@ucl.ac.uk.
 
 Example Usage
 Once the app is running, you can:
-
+you can access it online https://bit.ly/DormancyExpressionViewer
 Enter a gene name (e.g., an Ensembl human gene or pombe gene).
-Click Search to retrieve orthologues and view expression data for the gene across different dormancy-related conditions.
+Click Search to retrieve orthologues and view expression data for the gene across dormancy in different model organisms.
 View the gene expression tables, where upregulated and downregulated genes are highlighted for easier analysis.
