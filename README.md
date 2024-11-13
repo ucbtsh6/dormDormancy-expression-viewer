@@ -18,19 +18,24 @@ Installation and Usage
 1. Clone the Repository
 To get started, clone this repository to your local machine:
 
+```bash
 git clone  https://github.com/ucbtsh6/dormancy-expression-viewer.git
+```
 
 2. Open the Project
 Open the project in RStudio or another R environment, and navigate to the project directory.
 
 3. Install Dependencies
 Ensure you have the necessary R packages installed. Run the following command to install any missing packages:
-
+```R
 install.packages(c("shiny", "dplyr", "readxl", "DT"))
+```
+
 4. Run the App
 Launch the app by running:
-
+```R
 shiny::runApp()
+```
 
 The app will open in your web browser, where you can enter gene names and view the corresponding orthologues and expression data across dormancy-related conditions.
 
