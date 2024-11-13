@@ -26,13 +26,13 @@ git clone  https://github.com/ucbtsh6/dormancy-expression-viewer.git
 Open the project in RStudio or another R environment, and navigate to the project directory.
 
 3. Install Dependencies
-Ensure you have the necessary R packages installed. Run the following command to install any missing packages:
+Ensure you have the necessary R packages installed. Run the following command to install any missing packages: on R consol
 ```R
 install.packages(c("shiny", "dplyr", "readxl", "DT"))
 ```
 
 4. Run the App
-Launch the app by running:
+Launch the app by running: on R consol
 ```R
 shiny::runApp()
 ```
@@ -54,12 +54,13 @@ Expression Data Output: Depending on the gene entered, the app displays correspo
 File Structure
 
 The app's files are organized as follows:
-
+```R
 dormancy-expression-viewer/
 ├── app.R                               # Main Shiny app file
 ├── dormancy.gene.expression.view.ortho.xls # Excel file with gene expression data
 └── www/
     └── logo.png                        # Logo image (optional)
+```
 License
 
 This project is licensed under the MIT License, allowing others to freely use, modify, and distribute the app with attribution.
