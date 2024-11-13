@@ -18,7 +18,9 @@ Installation and Usage
 1. Clone the Repository
 To get started, clone this repository to your local machine:
 
+```bash
 git clone  https://github.com/ucbtsh6/dormancy-expression-viewer.git
+```
 
 2. Open the Project
 Open the project in RStudio or another R environment, and navigate to the project directory.
